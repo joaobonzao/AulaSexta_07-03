@@ -1,0 +1,17 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       double raio, circunferencia;
+       //Entrada de dados
+        System.out.println("Insira o raio:");
+        raio = ler.nextDouble();
+       //Processamento
+       circunferencia = 2 * Math.PI * raio;
+       //Saida de dados 
+        System.out.println("Sua circunferencia é de: " + circunferencia);
+    }
+    
+}
