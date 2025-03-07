@@ -1,0 +1,18 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       double raio, volume;
+       //Entrada de dados
+        System.out.println("Insira o raio a esfera: ");
+        raio = ler.nextDouble();
+       //Processamento
+       volume = (4.0 / 3) * Math.PI * Math.pow(raio, 3);
+       //Saida de dados 
+        System.out.println("O volume da sua esfera é: " + volume);
+    }
+    
+}
+
