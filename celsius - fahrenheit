@@ -1,0 +1,18 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       double celsius, fahrenheit;
+       //Entrada de dados
+        System.out.println("Insira a temperatura em graus celsius:");
+        celsius = ler.nextDouble();
+       //Processamento
+       fahrenheit = (celsius*9/5)+32;
+       //Saida de dados 
+        System.out.println("Graus em fahrenheit: " + fahrenheit);
+
+  }
+
+}
