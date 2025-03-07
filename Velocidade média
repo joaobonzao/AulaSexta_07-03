@@ -1,0 +1,20 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       double distancia, velocidadeMedia;
+       int tempoPercorrido;
+       //Entrada de dados
+        System.out.println("Insira a distancia percorrida: ");
+        distancia = ler.nextDouble();
+        System.out.println("Insira o tempom que demorou pra percorrer a distancia:");
+        tempoPercorrido = ler.nextInt();
+       //Processamento
+       velocidadeMedia = tempoPercorrido/distancia;
+       //Saida de dados 
+        System.out.println("Sua velocidade é de: " + velocidadeMedia);
+    }
+    
+}
