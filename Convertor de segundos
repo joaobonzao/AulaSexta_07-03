@@ -1,0 +1,21 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       int segundos, minutos, horas;
+       //Entrada de dados
+       System.out.println("Insira os segundos:");
+       segundos = ler.nextInt();
+       
+       //Processamento
+       minutos= segundos / 60;
+       horas = minutos / 60;
+       //Saida de dados 
+        System.out.println("Segundos: "+ segundos);
+        System.out.println("Minutos: "+ minutos);
+        System.out.println("Horas: " + horas);
+    }
+    
+}
