@@ -1,0 +1,22 @@
+package javaapplication24;
+import java.util.Scanner;
+public class JavaApplication24 {
+    public static void main(String[] args) {
+              
+        //Declarando variáveis
+        Scanner ler = new Scanner(System.in);
+        double cateto1, cateto2, hipotenusa;
+        //Entradade de dados
+        System.out.println("Insira o 1° cateto: ");
+        cateto1 = ler.nextDouble();
+        System.out.println("Insira o 2° cateto: ");
+        cateto2 = ler.nextDouble();
+        //Processamento
+        hipotenusa = Math.sqrt(Math.pow(cateto1, 2)+ Math.pow(cateto2, 2));
+        //Saida de dados
+        System.out.println("A hipotenusa é igual a: " + hipotenusa);
+        
+        
+    }
+    
+}
