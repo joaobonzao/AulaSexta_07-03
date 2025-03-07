@@ -1,0 +1,21 @@
+package javaapplication23;
+import java.util.Scanner;
+public class JavaApplication23 {
+    public static void main(String[] args) {
+       //Declarar variáveis
+       Scanner ler = new Scanner(System.in);        
+       double raio, altura, volume;
+       //Entrada de dados
+        System.out.println("Insira o raio do cilíndro:");
+        raio = ler.nextDouble();
+        System.out.println("Insira o altura do cilíndro:");
+        altura = ler.nextDouble();
+       //Processamento
+       volume = (Math.PI*Math.pow(raio,2)*altura);
+       //Saida de dados
+        System.out.println("O volume o cilíndro é:" + volume);
+        
+    }
+    
+}
+
