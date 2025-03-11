@@ -1,18 +1,23 @@
-package javaapplication23;
+
+package javaapplication123;
+import java.text.DecimalFormat;
 import java.util.Scanner;
-public class JavaApplication23 {
+public class JavaApplication123 {
     public static void main(String[] args) {
-       //Declarar variáveis
+        //Declarar variáveis
        Scanner ler = new Scanner(System.in);        
        double celsius, fahrenheit;
+       DecimalFormat decimal = new DecimalFormat ("0.00");
        //Entrada de dados
         System.out.println("Insira a temperatura em graus celsius:");
         celsius = ler.nextDouble();
        //Processamento
        fahrenheit = (celsius*9/5)+32;
        //Saida de dados 
-        System.out.println("Graus em fahrenheit: " + fahrenheit);
+        System.out.println("Graus em fahrenheit: " + decimal.format(fahrenheit));
+        
 
-  }
-
+       
+    }
+    
 }
